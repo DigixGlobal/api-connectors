@@ -1,3 +1,13 @@
+# Digix's Bitmex Delta Server
+* Start server:
+```
+pm2 run pm2.config.js
+```
+* Monitor logs:
+```
+tail -f out.log
+```
+
 # BitMEX-Delta-Server
 
 BitMEX-Delta-Server is the easiest way to get started with realtime market data.
